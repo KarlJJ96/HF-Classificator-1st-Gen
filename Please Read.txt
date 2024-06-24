@@ -1,0 +1,19 @@
+--Virtual Raphael--
+
+This version will retrain the model each time you run, possibly giving different results due to the choice of training set etc. However, to run 
+this you will need access to the training reports, please contact me at karl.johnson@strath.ac.uk
+
+Once you have obtained the accident reports for training.
+
+Please ensure that the 'Function&Files', 'Reports' (folder containing the training reports), 'Results' and 'Uploads' 
+folders are within the folder containing the scripts, and on the path.
+
+To run the classifier on a new report, replace/add the file to the 'Uploads' folder, then simply run 'reportClassifier.m'
+Alternatively you may run 'reportClassifier_selectfile.m' which will prompt you to select the new report for classification.
+
+There wil then be two outputs in the 'Results' folder, one 'accuracies.txt' showing the accuracy metrics from the training part of the process,
+and then 'factors.txt' which show the factors the model has extracted from the uploaded report. Please note these are replaced each time the 
+scripts are run so please save/rename these before entering a new report.
+
+
+
